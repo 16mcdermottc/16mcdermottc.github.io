@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+    <meta charset="utf-8">
+
+    <style>
+    body {
+      font-family: Arial;
+      color: white;
+      margin: 0;
+    }
+    video {
+      object-fit: fill;
+      height: 100vh;
+      width: 100%;
+      min-height: 100vh;
+      min-width: 100vw;
+    }
+    #middle-page {
+      top: 24vh;
+      left: 30vw;
+      position: absolute;
+    }
+    #name {
+      font-weight: bold;
+      font-size: 3.5vw;
+      margin-bottom: 3%;
+    }
+    #intro {
+      font-size: 1.5vw;
+    }
+    #icons {
+      top: 10%;
+      right: 10%;
+      position: absolute;
+      list-style-type: none;
+      font-size: 1.5vw;
+    }
+    </style>
+
+    <title>Assignment1</title>
+  </head>
+  <body>
+      <video autoplay loop muted>
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support the video.
+      </video>
+      <div id="middle-page">
+        <p id="name">Christian McDermott</p>
+        <p id="intro">Here's my home page</p>
+      </div>
+      <ul id="icons">
+        <li><i class="fas fa-address-card"></i> About Me</li>
+        <li><i class="fas fa-file-alt"></i> Resume</li>
+        <li><i class="fas fa-medal"></i> Hobbies</li>
+        <li><i class="fas fa-user-tie"></i> Work</li>
+      </ul>
+  </body>
+</html>
