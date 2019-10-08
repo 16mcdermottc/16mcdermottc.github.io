@@ -1,0 +1,104 @@
+@media only screen and (max-width:700px)
+{
+  .small {display: none;}
+  .iframe {max-width: 100%;}
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-family: Arial;
+  color: white;
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  background-image: url("background.jpeg");
+}
+
+header {
+  padding: 1% 0 1% 2%;
+  background-color: black;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0;
+}
+
+i {
+  padding-right: 3px;
+}
+
+footer {
+  background-color: black;
+  width: 100vw;
+  text-align: center;
+  font-size: 10pt;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.page-display {
+  margin: 5%;
+}
+
+.tab-item {
+  padding: 0 5%;
+}
+
+#name {
+  font-size: 24pt;
+  color: white;
+}
+
+#tabs {
+  padding: 0 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  right: 0;
+  width: 25%;
+  flex-wrap: nowrap;
+}
+
+#about-me {
+  font-size: 16pt;
+  color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#resume {
+  width: 100%;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
